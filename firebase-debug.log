@@ -1,0 +1,137 @@
+[debug] [2019-06-03T10:13:47.699Z] ----------------------------------------------------------------------
+[debug] [2019-06-03T10:13:47.708Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2019-06-03T10:13:47.709Z] CLI Version:   6.10.0
+[debug] [2019-06-03T10:13:47.709Z] Platform:      darwin
+[debug] [2019-06-03T10:13:47.709Z] Node Version:  v11.12.0
+[debug] [2019-06-03T10:13:47.727Z] Time:          Mon Jun 03 2019 15:43:47 GMT+0530 (India Standard Time)
+[debug] [2019-06-03T10:13:47.727Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-06-03T10:13:47.765Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-06-03T10:13:47.766Z] > authorizing via signed-in user
+[debug] [2019-06-03T10:13:47.766Z] [iam] checking project noteworld-221a0 for permissions ["firebase.projects.get"]
+[debug] [2019-06-03T10:13:47.769Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/noteworld-221a0:testIamPermissions  
+
+[debug] [2019-06-03T10:13:48.390Z] <<< HTTP RESPONSE 200
+[debug] [2019-06-03T10:13:48.393Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/noteworld-221a0  
+ 
+[debug] [2019-06-03T10:13:49.909Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/c.v.s.s.subramanyam/Desktop/MOENGAGE'...
+[info] 
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "11"
+[debug] [2019-06-03T10:13:49.942Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/438921064513/clients/_:getWebAppConfig  
+ 
+[debug] [2019-06-03T10:13:49.944Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/438921064513:getServerAppConfig  
+ 
+[debug] [2019-06-03T10:13:50.522Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-06-03T10:13:50.539Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/c.v.s.s.subramanyam/Desktop/MOENGAGE/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-06-03T10:13:51.855Z] Functions runtime initialized.
+[debug] [2019-06-03T10:13:51.855Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[debug] [2019-06-03T10:13:53.162Z] firebase-admin has been stubbed.
+[debug] [2019-06-03T10:28:16.327Z] ----------------------------------------------------------------------
+[debug] [2019-06-03T10:28:16.332Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2019-06-03T10:28:16.332Z] CLI Version:   6.10.0
+[debug] [2019-06-03T10:28:16.333Z] Platform:      darwin
+[debug] [2019-06-03T10:28:16.333Z] Node Version:  v11.12.0
+[debug] [2019-06-03T10:28:16.334Z] Time:          Mon Jun 03 2019 15:58:16 GMT+0530 (India Standard Time)
+[debug] [2019-06-03T10:28:16.334Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-06-03T10:28:16.369Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-06-03T10:28:16.369Z] > authorizing via signed-in user
+[debug] [2019-06-03T10:28:16.369Z] [iam] checking project noteworld-221a0 for permissions ["firebase.projects.get"]
+[debug] [2019-06-03T10:28:16.372Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/noteworld-221a0:testIamPermissions  
+
+[debug] [2019-06-03T10:28:18.066Z] <<< HTTP RESPONSE 200
+[debug] [2019-06-03T10:28:18.070Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/noteworld-221a0  
+ 
+[debug] [2019-06-03T10:28:19.595Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/c.v.s.s.subramanyam/Desktop/MOENGAGE'...
+[info] 
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "11"
+[debug] [2019-06-03T10:28:19.624Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/438921064513/clients/_:getWebAppConfig  
+ 
+[debug] [2019-06-03T10:28:19.625Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/438921064513:getServerAppConfig  
+ 
+[debug] [2019-06-03T10:28:20.210Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-06-03T10:28:20.223Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/c.v.s.s.subramanyam/Desktop/MOENGAGE/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-06-03T10:28:21.324Z] Functions runtime initialized.
+[debug] [2019-06-03T10:28:21.325Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[debug] [2019-06-03T10:28:22.703Z] firebase-admin has been stubbed.
+[debug] [2019-06-04T06:23:05.982Z] ----------------------------------------------------------------------
+[debug] [2019-06-04T06:23:05.991Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2019-06-04T06:23:05.992Z] CLI Version:   6.10.0
+[debug] [2019-06-04T06:23:05.992Z] Platform:      darwin
+[debug] [2019-06-04T06:23:05.992Z] Node Version:  v11.12.0
+[debug] [2019-06-04T06:23:06.010Z] Time:          Tue Jun 04 2019 11:53:05 GMT+0530 (India Standard Time)
+[debug] [2019-06-04T06:23:06.010Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-06-04T06:23:06.055Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-06-04T06:23:06.056Z] > authorizing via signed-in user
+[debug] [2019-06-04T06:23:06.056Z] [iam] checking project noteworld-221a0 for permissions ["firebase.projects.get"]
+[debug] [2019-06-04T06:23:06.060Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-06-04T06:23:06.060Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-06-04T06:23:06.431Z] <<< HTTP RESPONSE 200
+[debug] [2019-06-04T06:23:06.472Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/noteworld-221a0:testIamPermissions  
+
+[debug] [2019-06-04T06:23:08.000Z] <<< HTTP RESPONSE 200
+[debug] [2019-06-04T06:23:08.002Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/noteworld-221a0  
+ 
+[debug] [2019-06-04T06:23:09.437Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/c.v.s.s.subramanyam/Desktop/MOENGAGE'...
+[info] 
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "11"
+[debug] [2019-06-04T06:23:09.479Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/438921064513/clients/_:getWebAppConfig  
+ 
+[debug] [2019-06-04T06:23:09.480Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/438921064513:getServerAppConfig  
+ 
+[debug] [2019-06-04T06:23:09.897Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-06-04T06:23:10.561Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/c.v.s.s.subramanyam/Desktop/MOENGAGE/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-06-04T06:23:12.009Z] Functions runtime initialized.
+[debug] [2019-06-04T06:23:12.010Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[debug] [2019-06-04T06:23:13.477Z] firebase-admin has been stubbed.
+[debug] [2019-06-04T06:47:33.878Z] ----------------------------------------------------------------------
+[debug] [2019-06-04T06:47:33.880Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve --only functions,hosting
+[debug] [2019-06-04T06:47:33.881Z] CLI Version:   6.10.0
+[debug] [2019-06-04T06:47:33.881Z] Platform:      darwin
+[debug] [2019-06-04T06:47:33.881Z] Node Version:  v11.12.0
+[debug] [2019-06-04T06:47:33.882Z] Time:          Tue Jun 04 2019 12:17:33 GMT+0530 (India Standard Time)
+[debug] [2019-06-04T06:47:33.882Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-06-04T06:47:33.899Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-06-04T06:47:33.899Z] > authorizing via signed-in user
+[debug] [2019-06-04T06:47:33.900Z] [iam] checking project noteworld-221a0 for permissions ["firebase.projects.get"]
+[debug] [2019-06-04T06:47:33.904Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/noteworld-221a0:testIamPermissions  
+
+[debug] [2019-06-04T06:47:35.604Z] <<< HTTP RESPONSE 200
+[debug] [2019-06-04T06:47:35.608Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/noteworld-221a0  
+ 
+[debug] [2019-06-04T06:47:37.050Z] <<< HTTP RESPONSE 200
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "11"
+[debug] [2019-06-04T06:47:37.077Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/438921064513/clients/_:getWebAppConfig  
+ 
+[debug] [2019-06-04T06:47:37.078Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/438921064513:getServerAppConfig  
+ 
+[debug] [2019-06-04T06:47:37.544Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-06-04T06:47:37.557Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/c.v.s.s.subramanyam/Desktop/MOENGAGE/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-06-04T06:47:37.956Z] Functions runtime initialized.
+[debug] [2019-06-04T06:47:37.957Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[debug] [2019-06-04T06:47:39.353Z] firebase-admin has been stubbed.
